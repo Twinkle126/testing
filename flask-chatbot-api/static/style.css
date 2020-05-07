@@ -1,0 +1,48 @@
+#textInput {
+     border: none;
+     border-bottom: 3px solid aqua;
+}
+ .userText {
+     color: lightgreen;
+     font-family: monospace;
+     font-size: 17px;
+     text-align: right;
+     line-height: 30px;
+}
+ .userText span {
+     background-color: #009688;
+     padding: 10px;
+     border-radius: 2px;
+}
+ .botText {
+     color: white;
+     font-family: monospace;
+     font-size: 17px;
+     text-align: left;
+     line-height: 30px;
+}
+ .botText span {
+     background-color: #EF5350;
+     padding: 10px;
+     border-radius: 2px;
+}
+ * {
+     box-sizing: border-box;
+}
+ div.row {
+     display: flex;
+      max-width:500px;
+      margin: auto;
+      border: 3px solid #73AD21;
+
+}
+ .column1 {
+     max-width=80% flex: 70%;
+     padding: 10px;
+     height: 300px;
+}
+ .column2 {
+     max-width=20% flex: 30%;
+     padding: 10px;
+     height: 300px;
+}
